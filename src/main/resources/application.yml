@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: atm-projesi
+  datasource:
+    url: jdbc:postgresql://localhost:10000/atm-project
+    hikari:
+      username: admin
+      password: 12345
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+base:
+  version: v1
+  baseUrl: /api
+
